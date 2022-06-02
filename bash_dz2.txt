@@ -13,7 +13,7 @@ touch tf_1.txt
 - the second 2
 - the third 3
 
-tf_1.txt 
+cat > tf_1.txt 
 - the first 1
 - the second 2
 - the third 3
@@ -21,7 +21,7 @@ tf_1.txt
  7. Зайти в папку inner_dir_1
 cd inner_dir_1/
  8. Через cat сделать текстовый файл tf_3.txt  c любыми строками
-tf_3.txt
+cat i> tf_3.txt
 Hello
 Hi
 Go        
